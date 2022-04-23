@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "c92a898f-2569-48f3-84a9-46c91df39f37",
+		"name": "PFM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "insert_patient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Natalia\",\r\n \"surname\": \"Berruga\",\r\n \"age\": 34,\r\n \"clumpThickness\": 10,\r\n \"uniformityCellSize\": 1,\r\n \"uniformityCellShape\": 1,\r\n \"marginalAdhesion\": 1,\r\n \"singleEpiCellSize\": 1,\r\n \"bareNuclei\": 2,\r\n \"blandChromatin\": 1,\r\n \"normalNucleoli\": 3,\r\n \"mitoses\": 1\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/insertPatient",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"insertPatient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_patient2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Carlos\",\r\n \"surname\": \"Villacastín\",\r\n \"age\": 37,\r\n \"clumpThickness\": 10,\r\n \"uniformityCellSize\": 10,\r\n \"uniformityCellShape\": 7,\r\n \"marginalAdhesion\": 8,\r\n \"singleEpiCellSize\": 9,\r\n \"bareNuclei\": 4,\r\n \"blandChromatin\": 7,\r\n \"normalNucleoli\": 6,\r\n \"mitoses\": 5\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/insertPatient",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"insertPatient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_patient3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"A\", \"surname\":\"AA\", \"age\":34}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/insertPatient",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"insertPatient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert_patient4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Felipe\",\r\n \"surname\": \"Sanchez\",\r\n \"age\": 34,\r\n \"clumpThickness\": 10,\r\n \"uniformityCellSize\": 1,\r\n \"uniformityCellShape\": 1,\r\n \"marginalAdhesion\": 6,\r\n \"singleEpiCellSize\": 1,\r\n \"bareNuclei\": 2,\r\n \"blandChromatin\": 1,\r\n \"normalNucleoli\": 3,\r\n \"mitoses\": 1\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/insertPatient",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"insertPatient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_list_patients",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"skip\":1,\r\n    \"limit\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/getPatients",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"getPatients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_list_patients2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"skip\":1,\r\n    \"limit\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/getPatients",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"getPatients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_list_patients3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"skip\":1,\r\n    \"limit\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/getPatients",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"getPatients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict_cancer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:80/predictCancer/62614a1d4a10c711c1631338",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"predictCancer",
+						"62614a1d4a10c711c1631338"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_patient",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"C\", \"surname\":\"BB\", \"age\":34}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/updatePatient/623eeab16cd74623279be358",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"updatePatient",
+						"623eeab16cd74623279be358"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_patient",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:80/delete_patient/623eeab16cd74623279be358",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"delete_patient",
+						"623eeab16cd74623279be358"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
